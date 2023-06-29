@@ -530,7 +530,7 @@ MonoBehaviour:
   minRooms: 3
   dungeonWidth: 3
   dungeonHeight: 3
-  playerPrefab: {fileID: 5799469502635363643, guid: ae76fb63cd6c94f4b94ee80734bf6a6c, type: 3}
+  playerPrefab: {fileID: 7947115113833880622, guid: b284278dba692274282f1efa095779c3, type: 3}
   finishPrefab: {fileID: 3657031111005517675, guid: 95cb72d1247c6044ebd0ee26d94f9995, type: 3}
   m_virtualCamera: {fileID: 624556624}
 --- !u!4 &1367739364

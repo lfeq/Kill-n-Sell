@@ -9,7 +9,7 @@ public class PlayerAttack : MonoBehaviour {
                       downAttackPosition, upAttackPosition;
 
     private void Update() {
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        if (Input.GetMouseButtonDown(0)) {
             attack();
         }
     }
@@ -45,6 +45,7 @@ public class PlayerAttack : MonoBehaviour {
         Collider[] hitEnemies = Physics.OverlapSphere(attackPosition.position, attackRange, enemyLayer);
         foreach (Collider enemy in hitEnemies) {
             // Do damage
+            Destroy(enemy.gameObject);
         }
     }
 }
